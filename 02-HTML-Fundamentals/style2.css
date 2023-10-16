@@ -1,0 +1,150 @@
+* {
+  margin-bottom: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.SALE {
+  background-color: red;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  position: absolute;
+  top: -25px;
+  left: -38px;
+}
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+
+  padding: 15px;
+}
+
+/* PRODUCT INFORMATION */
+.price {
+  font-size: 24px;
+  margin: 0 0;
+  padding: 0 0;
+  /* float: left; */
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+.product-colors {
+  display: flex;
+  gap: 10px;
+}
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+}
+
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: brown;
+}
+
+/* product details */
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  gap: 40px;
+}
+/* button */
+.add-cart {
+  background-color: black;
+  border: none;
+  border-top: 4px solid black;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+
+  padding: 10px;
+}
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-description {
+  margin-bottom: 10px;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.shipping-details {
+  /* width: 243px; */
+  flex: 1;
+
+  margin-top: 20px;
+}
+
+.product-details {
+  /* width: 243px; */
+  flex: 1;
+  /* margin-left: 40px; */
+}
